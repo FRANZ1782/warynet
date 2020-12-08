@@ -1,0 +1,153 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+h2{
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+
+section{
+padding: 120px 0;
+}
+
+.topmargin-xs{margin-top: 15px;}
+.topmargin-sm{margin-top: 30px;}
+.topmargin-lg{margin-top: 60px;}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+
+}
+
+.btn-light{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.text-darks{
+    color: #1a1a1a;
+}
+
+
+.navbar{
+    background-color: aliceblue;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.05);                
+    min-height: 100px ;
+
+}
+.nav-link{
+color: #1a1a1a;
+
+}
+.logo-wary{
+    min-width: 100px;
+    max-width: 180px;
+}
+
+#hero{
+    background-image: url('image/fondofornite.jfif');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+
+}
+#hero2{
+    background-image: url('image/wary.jpg');
+    background-size: cover;
+    padding-top: 90px;
+
+    min-height: 1100px;
+    color: #ffffff;
+
+}
+
+#hero4{
+    background-image: url('image/calle.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    
+    min-height: 1300px;
+    color: #ffffff;
+
+}
+#hero p{
+    color: #ffffff;
+
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 120px auto 60px auto;
+    text-align: center;
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portfolio-container img{
+
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+
+}
+
+.portfolio-container:hover img{
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+    
+
+
+
+
+.portfolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details h2{
+    margin-bottom: 0px;
+}
+
+
+
+
+.portfolio-details a h2, .portfolio-details a p{
+    color: #ffffff;
+}
+
+
+
